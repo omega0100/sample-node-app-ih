@@ -13,7 +13,11 @@ module.exports = {
         '!**/coverage/**'
       ],
       coverageDirectory: 'coverage/server',
-      setupFilesAfterEnv: ['<rootDir>/tests/setup.js']
+      setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
+      reporters: [
+        "default",
+        [ "jest-junit", { outputDirectory: "coverage", outputName: "junit-server.xml" } ]
+      ]
     },
     {
       displayName: 'client',
@@ -27,7 +31,11 @@ module.exports = {
         '!**/coverage/**'
       ],
       coverageDirectory: 'coverage/client',
-      setupFilesAfterEnv: ['<rootDir>/tests/setup.js']
+      setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
+      reporters: [
+        "default",
+        [ "jest-junit", { outputDirectory: "coverage", outputName: "junit-client.xml" } ]
+      ]
     }
   ]
 };
