@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="49" failures="0" errors="0" time="1.447">
+  <testsuite name="Integration Tests" errors="0" failures="0" skipped="0" timestamp="2025-09-24T16:53:17" time="0.534" tests="14">
+    <testcase classname="Integration Tests Full Application Flow should serve complete application with all assets" name="Integration Tests Full Application Flow should serve complete application with all assets" time="0.031">
+    </testcase>
+    <testcase classname="Integration Tests Full Application Flow should serve all static assets correctly" name="Integration Tests Full Application Flow should serve all static assets correctly" time="0.019">
+    </testcase>
+    <testcase classname="Integration Tests Full Application Flow should handle health check in production-like environment" name="Integration Tests Full Application Flow should handle health check in production-like environment" time="0.007">
+    </testcase>
+    <testcase classname="Integration Tests Error Scenarios should handle 404 errors gracefully" name="Integration Tests Error Scenarios should handle 404 errors gracefully" time="0.007">
+    </testcase>
+    <testcase classname="Integration Tests Error Scenarios should handle malformed requests" name="Integration Tests Error Scenarios should handle malformed requests" time="0.006">
+    </testcase>
+    <testcase classname="Integration Tests Content Validation should serve valid HTML" name="Integration Tests Content Validation should serve valid HTML" time="0.012">
+    </testcase>
+    <testcase classname="Integration Tests Content Validation should include all required meta tags" name="Integration Tests Content Validation should include all required meta tags" time="0.007">
+    </testcase>
+    <testcase classname="Integration Tests Content Validation should include all CSS and JS references" name="Integration Tests Content Validation should include all CSS and JS references" time="0.016">
+    </testcase>
+    <testcase classname="Integration Tests Performance Tests should respond to health check quickly" name="Integration Tests Performance Tests should respond to health check quickly" time="0.005">
+    </testcase>
+    <testcase classname="Integration Tests Performance Tests should serve static files efficiently" name="Integration Tests Performance Tests should serve static files efficiently" time="0.005">
+    </testcase>
+    <testcase classname="Integration Tests Security Tests should not expose server information in headers" name="Integration Tests Security Tests should not expose server information in headers" time="0.008">
+    </testcase>
+    <testcase classname="Integration Tests Security Tests should handle invalid requests gracefully" name="Integration Tests Security Tests should handle invalid requests gracefully" time="0.024">
+    </testcase>
+    <testcase classname="Integration Tests Concurrent Requests should handle multiple concurrent requests" name="Integration Tests Concurrent Requests should handle multiple concurrent requests" time="0.007">
+    </testcase>
+    <testcase classname="Integration Tests File System Integration should serve files that actually exist" name="Integration Tests File System Integration should serve files that actually exist" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="Client-side JavaScript Tests" errors="0" failures="0" skipped="0" timestamp="2025-09-24T16:53:18" time="0.212" tests="20">
+    <testcase classname="Client-side JavaScript Tests DOM Content Loaded Event should execute when DOM is loaded" name="Client-side JavaScript Tests DOM Content Loaded Event should execute when DOM is loaded" time="0.015">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Navigation Links should find navigation links with href starting with #" name="Client-side JavaScript Tests Navigation Links should find navigation links with href starting with #" time="0.012">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Navigation Links should prevent default behavior on navigation link click" name="Client-side JavaScript Tests Navigation Links should prevent default behavior on navigation link click" time="0.009">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Smooth Scrolling should have scrollTo method available" name="Client-side JavaScript Tests Smooth Scrolling should have scrollTo method available" time="0.003">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Smooth Scrolling should find target sections for navigation" name="Client-side JavaScript Tests Smooth Scrolling should find target sections for navigation" time="0.006">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Header Scroll Effects should find header element" name="Client-side JavaScript Tests Header Scroll Effects should find header element" time="0.019">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Header Scroll Effects should handle scroll events" name="Client-side JavaScript Tests Header Scroll Effects should handle scroll events" time="0.004">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests CTA Buttons should find CTA buttons" name="Client-side JavaScript Tests CTA Buttons should find CTA buttons" time="0.003">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests CTA Buttons should handle CTA button clicks" name="Client-side JavaScript Tests CTA Buttons should handle CTA button clicks" time="0.004">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Intersection Observer should create IntersectionObserver instance" name="Client-side JavaScript Tests Intersection Observer should create IntersectionObserver instance" time="0.004">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Intersection Observer should find elements to observe" name="Client-side JavaScript Tests Intersection Observer should find elements to observe" time="0.004">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Hero Title Typing Effect should find hero title element" name="Client-side JavaScript Tests Hero Title Typing Effect should find hero title element" time="0.013">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Hero Title Typing Effect should implement typing effect logic" name="Client-side JavaScript Tests Hero Title Typing Effect should implement typing effect logic" time="0.004">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Counter Animation should find stat number elements" name="Client-side JavaScript Tests Counter Animation should find stat number elements" time="0.002">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Counter Animation should animate counter values" name="Client-side JavaScript Tests Counter Animation should animate counter values" time="0.003">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Tech Stack Hover Effects should find tech items" name="Client-side JavaScript Tests Tech Stack Hover Effects should find tech items" time="0.005">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Tech Stack Hover Effects should handle hover effects" name="Client-side JavaScript Tests Tech Stack Hover Effects should handle hover effects" time="0.005">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Console Welcome Message should log welcome message" name="Client-side JavaScript Tests Console Welcome Message should log welcome message" time="0.006">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Error Handling should handle missing elements gracefully" name="Client-side JavaScript Tests Error Handling should handle missing elements gracefully" time="0.003">
+    </testcase>
+    <testcase classname="Client-side JavaScript Tests Performance should use efficient DOM queries" name="Client-side JavaScript Tests Performance should use efficient DOM queries" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Express Server Tests" errors="0" failures="0" skipped="0" timestamp="2025-09-24T16:53:18" time="0.235" tests="15">
+    <testcase classname="Express Server Tests Static File Serving should serve static files from public directory" name="Express Server Tests Static File Serving should serve static files from public directory" time="0.012">
+    </testcase>
+    <testcase classname="Express Server Tests Static File Serving should serve CSS files" name="Express Server Tests Static File Serving should serve CSS files" time="0.006">
+    </testcase>
+    <testcase classname="Express Server Tests Static File Serving should serve JavaScript files" name="Express Server Tests Static File Serving should serve JavaScript files" time="0.012">
+    </testcase>
+    <testcase classname="Express Server Tests Health Check Endpoint should return health status" name="Express Server Tests Health Check Endpoint should return health status" time="0.004">
+    </testcase>
+    <testcase classname="Express Server Tests Health Check Endpoint should return valid timestamp format" name="Express Server Tests Health Check Endpoint should return valid timestamp format" time="0.004">
+    </testcase>
+    <testcase classname="Express Server Tests Root Route should serve index.html for root path" name="Express Server Tests Root Route should serve index.html for root path" time="0.005">
+    </testcase>
+    <testcase classname="Express Server Tests 404 Handling should return 404 for non-existent routes" name="Express Server Tests 404 Handling should return 404 for non-existent routes" time="0.006">
+    </testcase>
+    <testcase classname="Express Server Tests 404 Handling should serve 404.html for non-existent routes" name="Express Server Tests 404 Handling should serve 404.html for non-existent routes" time="0.006">
+    </testcase>
+    <testcase classname="Express Server Tests Error Handling should handle server errors gracefully" name="Express Server Tests Error Handling should handle server errors gracefully" time="0.001">
+    </testcase>
+    <testcase classname="Express Server Tests Middleware should have logging middleware" name="Express Server Tests Middleware should have logging middleware" time="0.006">
+    </testcase>
+    <testcase classname="Express Server Tests Middleware should have static file middleware" name="Express Server Tests Middleware should have static file middleware" time="0.004">
+    </testcase>
+    <testcase classname="Express Server Tests Content-Type Headers should set correct content-type for HTML files" name="Express Server Tests Content-Type Headers should set correct content-type for HTML files" time="0.006">
+    </testcase>
+    <testcase classname="Express Server Tests Content-Type Headers should set correct content-type for CSS files" name="Express Server Tests Content-Type Headers should set correct content-type for CSS files" time="0.004">
+    </testcase>
+    <testcase classname="Express Server Tests Content-Type Headers should set correct content-type for JS files" name="Express Server Tests Content-Type Headers should set correct content-type for JS files" time="0.007">
+    </testcase>
+    <testcase classname="Express Server Tests Security Headers should not expose sensitive server information" name="Express Server Tests Security Headers should not expose sensitive server information" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
